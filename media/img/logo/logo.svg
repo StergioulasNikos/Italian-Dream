@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32.0px"
+   height="32.0px"
+   viewBox="0 0 32.0 32.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\favicon3.png"
+   inkscape:export-xdpi="95.999924"
+   inkscape:export-ydpi="95.999924"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview903"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="23.147924"
+     inkscape:cx="10.562502"
+     inkscape:cy="18.381778"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid966" />
+  </sodipodi:namedview>
+  <defs
+     id="defs898" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path912"
+       style="fill:#fff7cb;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 16.000113,0 A 16.000062,16.06161 0 0 0 5e-7,16.061605 16.000062,16.06161 0 0 0 16.000113,32.123211 16.000062,16.06161 0 0 0 32.000025,16.061605 16.000062,16.06161 0 0 0 16.000113,0 Z"
+       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:transform-center-x="-0.23040265" />
+    <ellipse
+       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1594"
+       cx="15.54142"
+       cy="21.160479"
+       rx="7.5590544"
+       ry="7.5590539"
+       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:transform-center-x="0.35612195"
+       inkscape:transform-center-y="-0.83988795" />
+    <ellipse
+       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1598"
+       cx="16.040337"
+       cy="6.2601767"
+       rx="3.7795265"
+       ry="3.7795269"
+       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favicon2.png"
+       inkscape:export-xdpi="406.39999"
+       inkscape:export-ydpi="406.39999"
+       inkscape:transform-center-x="0.77603363"
+       inkscape:transform-center-y="-17.217882" />
+    <circle
+       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1600"
+       cx="6.7586918"
+       cy="11.200531"
+       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:transform-center-x="10.014865"
+       inkscape:transform-center-y="-10.498692"
+       r="3.7795269" />
+    <ellipse
+       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1602"
+       cx="25.149181"
+       cy="11.200531"
+       rx="3.7795265"
+       ry="3.7795269"
+       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:transform-center-x="-8.4627996"
+       inkscape:transform-center-y="-10.498692" />
+  </g>
+</svg>
