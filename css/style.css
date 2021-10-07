@@ -1,0 +1,56 @@
+body
+{
+	width:100%;
+}
+@media screen and (min-width:1280px)
+{
+	.images
+	{
+		width:200px;
+	}
+	#logo
+	{
+		width:80px;
+		float:left;
+	}
+	#title
+	{
+		font-style:bold;
+		font-size:36px;
+		float:left;
+		clear:both;
+	}
+	#payoff
+	{
+		font-style:bold;
+		font-size:28px;
+		float:left;
+		clear:both;
+	}
+	nav
+	{
+		float:left;
+		clear:both;
+	}
+	aside
+	{
+		float:right;
+	}
+	#cookie
+	{
+		float:right;
+		clear:both;
+	}
+	#controls
+	{
+		display:none;
+	}
+}
+@media screen and (min-width:481px) and (max-width:1179px)
+{
+	
+}
+@media screen and (max-witdh:480px)
+{
+	
+}
