@@ -2,22 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="32.0px"
-   height="32.0px"
-   viewBox="0 0 32.0 32.0"
+   width="64.0px"
+   height="64.0px"
+   viewBox="0 0 64.0 64.0"
    version="1.1"
    id="SVGRoot"
-   sodipodi:docname="drawing.svg"
-   inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\favicon3.png"
-   inkscape:export-xdpi="95.999924"
-   inkscape:export-ydpi="95.999924"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview903"
+     id="namedview829"
      pagecolor="#505050"
      bordercolor="#eeeeee"
      borderopacity="1"
@@ -26,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="23.147924"
-     inkscape:cx="10.562502"
-     inkscape:cy="18.381778"
+     inkscape:zoom="11.573962"
+     inkscape:cx="47.995666"
+     inkscape:cy="31.579506"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -37,68 +34,61 @@
      inkscape:current-layer="layer1">
     <inkscape:grid
        type="xygrid"
-       id="grid966" />
+       id="grid892" />
   </sodipodi:namedview>
   <defs
-     id="defs898" />
+     id="defs824" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       id="path912"
-       style="fill:#fff7cb;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 16.000113,0 A 16.000062,16.06161 0 0 0 5e-7,16.061605 16.000062,16.06161 0 0 0 16.000113,32.123211 16.000062,16.06161 0 0 0 32.000025,16.061605 16.000062,16.06161 0 0 0 16.000113,0 Z"
-       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:transform-center-x="-0.23040265" />
-    <ellipse
-       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path1594"
-       cx="15.54142"
-       cy="21.160479"
-       rx="7.5590544"
-       ry="7.5590539"
-       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:transform-center-x="0.35612195"
-       inkscape:transform-center-y="-0.83988795" />
-    <ellipse
-       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path1598"
-       cx="16.040337"
-       cy="6.2601767"
-       rx="3.7795265"
-       ry="3.7795269"
-       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favicon2.png"
-       inkscape:export-xdpi="406.39999"
-       inkscape:export-ydpi="406.39999"
-       inkscape:transform-center-x="0.77603363"
-       inkscape:transform-center-y="-17.217882" />
-    <circle
-       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path1600"
-       cx="6.7586918"
-       cy="11.200531"
-       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:transform-center-x="10.014865"
-       inkscape:transform-center-y="-10.498692"
-       r="3.7795269" />
-    <ellipse
-       style="fill:#8a0000;fill-opacity:1;stroke:#120c00;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path1602"
-       cx="25.149181"
-       cy="11.200531"
-       rx="3.7795265"
-       ry="3.7795269"
-       inkscape:export-filename="C:\Users\mirko\Desktop\progetto web design aggiornato\img\Favico.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:transform-center-x="-8.4627996"
-       inkscape:transform-center-y="-10.498692" />
+       sodipodi:type="star"
+       style="fill:#808080;stroke:#120c00;stroke-width:0;stroke-linecap:round"
+       id="path21318"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="31"
+       sodipodi:cy="33"
+       sodipodi:r1="32"
+       sodipodi:r2="16"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 31.000001,1 27.712811,48.000001 -55.4256253,-2e-6 z"
+       inkscape:transform-center-y="-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 31,1 V 33 L 59,49"
+       id="path21353" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 31,33 3,49"
+       id="path21355" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3,49 31,1"
+       id="path21357" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 31,1 59,49"
+       id="path21359" />
+    <path
+       style="fill:#00ff00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3,49 H 59"
+       id="path21361" />
+    <path
+       style="fill:#00ff00;stroke:#120c00;stroke-width:0;stroke-linecap:round"
+       d="M 17.33765,25.509847 C 24.370709,13.45153 30.198909,3.4689936 30.289207,3.3264323 30.450875,3.0711916 30.453356,3.2937182 30.451531,17.884973 l -0.0019,14.817744 -12.902542,7.365672 C 10.450737,44.119508 4.6233701,47.43406 4.5974316,47.43406 c -0.025939,0 5.7071594,-9.865896 12.7402184,-21.924213 z"
+       id="path21437" />
+    <path
+       style="fill:#ffffff;stroke:#120c00;stroke-width:0;stroke-linecap:round"
+       d="m 44.471374,40.065664 -12.889833,-7.362947 -0.001,-14.770223 c -5.75e-4,-8.346683 0.03158,-14.7345266 0.07392,-14.6881425 0.125905,0.1378983 25.762414,44.1286025 25.73364,44.1573755 -0.01479,0.01479 -5.827307,-3.286443 -12.916715,-7.336063 z"
+       id="path21550" />
+    <path
+       style="fill:#ff0000;stroke:#120c00;stroke-width:0;stroke-linecap:round"
+       d="m 5.1650584,48.417861 c 0.029155,-0.02916 5.8531626,-3.367349 12.9422396,-7.41821 l 12.889232,-7.365202 12.927611,7.385407 c 7.110186,4.061973 12.943811,7.400168 12.963611,7.41821 0.0198,0.01804 -11.621633,0.0328 -25.869851,0.0328 -14.248218,0 -25.8819974,-0.02385 -25.8528426,-0.05301 z"
+       id="path21626" />
   </g>
 </svg>
