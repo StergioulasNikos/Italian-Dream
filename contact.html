@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-<html>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="keywords" content="Italy, Tourism, Italia, IT, Vacation, Holiday" />	
@@ -10,38 +10,89 @@
 		type = "text/css"
 		href = "css/style.css"
 		/>
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+		</style>
 	</head>
-	<body>
-		<figure>
-			<img id="logo" src="media/img/logo/logo.svg">
-		<figure>
-		<h1 id="title"> Italian Dream </h1>
-		<h2 id="payoff"> Discover your smile </h2>
-		<nav>
+	<body id="contact" >
+	<header id="TOP">
+		<section id="start">
+			<figure>
+				<img alt="logo" id="logo" src="media/img/logo/logo.svg" />
+			</figure>
+			<h1 id="title"> Italian Dream </h1>
+			<h2 id="payoff"> Discover your smile </h2>
+		</section>
+			<section id="hamburger-menu">
+                <button id="hamburger-btn">
+						<img alt="menu" id="icon" src="media/img/icon/icon.svg" />
+                </button>
+                <section id="hamburger-navigation">
+                    <a href="index.html">Home</a>
+                    <a href="bestdestinations.html">Best Destinations</a>
+                    <a href="tickets.html">Tickets</a>
+                </section>
+            </section>
+			</header>
+		<nav id="navBar">
 			<ul>
 				<li>
-					<a href="index.html">
+					<a class="link" href="index.html">
 					Home
 					</a>
 				</li>
 				<li>
-					<a href="bestdestinations.html">
+					<a  class="link" href="bestdestinations.html">
 					Best Destinations
 					</a>
 				</li>
 				<li>
-					<a href="tickets.html">
+					<a  class="link" href="tickets.html">
 					Tickets
 					</a>
 				</li>
 			</ul>
 		</nav>
-		<aside>
-		</aside>
+		<main id="main">
+			<form>
+				<fieldset>
+					<legend> Leave us a message </legend>
+					<label class="labels" for="name">Name:</label>
+					<input class="inputs" type="text" id="name" name="name" required />
+					<label class="labels" for="email">Email:</label>
+					<input class="inputs" type="email" id="email" name="email" required />
+					<label class="labels" for="message">Message:</label>
+					<input class="inputs" type="text" id="message" name="message" required />
+					<input class="inputs" type="submit" value="Submit" id="submit">
+				</fieldset>
+			</form>
+			<aside id="redirect">
+				<figure>
+					<a id="linkNapoli" href="https://www.tui.nl/11-dg-cruise-hoogtepunten-aan-de-middellandse-zee-519754399/">
+						<img alt="Napoli" class="imgRedi2" src="media/img/napoli.jpg">	
+					</a>
+					<figcaption class="captions">Sight on vesuvio <em>&copy; napoli-turistica.com</em></figcaption>
+				</figure>
+				<figure>
+					<a id="linkRoma" href="https://www.tui.nl/monti-palace-509664440/">
+						<img alt="Roma" class="imgRedi2" src="media/img/roma.jpg">
+						</a>
+						<figcaption class="captions">Colsseum
+						<em>&copy; wikipedia.com</em></figcaption>
+				</figure>
+				<figure>
+					<a id="linkVenice" href="https://www.tui.nl/hilton-garden-inn-venetie-509461908/">
+						<img alt="Venezia" class="imgRedi2" src="media/img/venice.jpg">
+					</a>
+					<figcaption class="captions">Piazza San Marco
+					<em> &copy; shutterstock.com </em></figcaption>
+				</figure>			
+			</aside>
+		</main>
 		<section id="cookie">
 			<p> Coockie statement </p>
 		</section>
-		<footer>
+		<footer id="copyContact">
 			&copy; 2021 Mirko Cuccurullo Inc.
 		</footer>
 	</body>
