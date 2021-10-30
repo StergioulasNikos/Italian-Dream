@@ -19,7 +19,7 @@ nav > ul{
 		list-style:none;
 
 	}
-nav > ul > li{
+nav  ul  li{
 		display:inline;
 		margin:25px;
 	}
@@ -61,15 +61,34 @@ header{
 	font-family: 'Notable', sans-serif;
 }
 #products{
-	background-color:#FFF
+	background-color:#FFF;
 }
 .captions{
 	font-size:0.7em;
 	
 }
+#aboutTicket{
+	font-family:'Notable', sans-serif;
+	color:#0A36AF;
+	text-align:center;
+}
+tr{
+	background-color:red;
+}
+tr:first-child{
+	color:#FF0;
+	background-color:#0A36AF;
+}
+tr:nth-child(even){
+	background-color:#FFF;
+}
+
+
 
 @media screen and (min-width:1280px) and (min-resolution:1dppx){
-
+#videoContainerMobile{
+	display:none;
+}
 aside{
 	border-style:solid;
 	border-color:#0A36AF;
@@ -80,7 +99,6 @@ aside{
 	}
 	
 	/*TICKET*/
-	
 	#napoli,#roma,#venice{
 		width:300px;
 	}
@@ -313,13 +331,18 @@ aside{
 	}
 	#videoContainer{
 		display:flex;
-		justify-content: center;
+		flex-direction:column;
 	}
 
 
 }
 @media screen and (max-width:480px) and (max-resolution:3dppx){
-	
+	#videoContainer{
+	display:none;
+	}
+	#aboutTicket{
+		display:none;
+	}
 	#linkNapoli>img,#linkRoma>img,#linkVenice>img{
 		width:200px;
 	}
@@ -582,10 +605,14 @@ aside{
 	
 }
 @media screen and (min-width:481px) and (max-width:1279px) and (max-resolution:2dppx){
+	#videoContainer{
+		display:none;
+	}
 	#hamburger-menu{
 		display:none;
 	}
 	/* TICKET */
+
 		table, th, td {
 		border: 1px solid black;
 	}
