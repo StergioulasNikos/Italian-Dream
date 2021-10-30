@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-<html>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="keywords" content="Italy, Tourism, Italia, IT, Vacation, Holiday" />	
@@ -10,123 +10,163 @@
 		type = "text/css"
 		href = "css/style.css"
 		/>
+		
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+		</style>
 	</head>
-	<body>
-		<figure>
-			<img id="logo" src="media/img/logo/logo.svg">
-		<figure>
-		<h1 id="title"> Italian Dream </h1>
-		<h2 id="payoff"> Discover your smile </h2>
-		<nav>
-			<ul>
-				<li>
-					<a href="bestdestinations.html">
-					Best Destinations
-					</a>
-				</li>
-				<li>
-					<a href="tickets.html">
-					Tickets
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-					Contact
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<section>
+	<body id="index">
+		<header id="TOP">
+		<section id="start">
 			<figure>
-				<video controls="controls" autoplay>
+				<img alt="logo" id="logo" src="media/img/logo/logo.svg" />
+			</figure>
+			<h1 id="title"> Italian Dream </h1>
+			<h2 id="payoff"> Discover your smile </h2>
+		</section>
+			<section id="hamburger-menu">
+                <button id="hamburger-btn">
+						<img  alt="menu" id="icon" src="media/img/icon/icon.svg" />
+                </button>
+                <section id="hamburger-navigation">
+                    <a href="bestdestinations.html">Best Destinations</a>
+                    <a href="tickets.html">Tickets</a>
+                    <a href="contact.html">Contact</a>
+                </section>
+            </section>
+			</header>
+			<nav id="navBar">
+				<ul>
+					<li>
+						<a id="firstLink" href="bestdestinations.html">
+						Best Destinations
+						</a>
+					</li>
+					<li>
+						<a id="secondLink" href="tickets.html">
+						Tickets
+						</a>
+					</li>
+					<li>
+						<a id="thirdLink" href="contact.html">
+						Contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<figure id="videoContainer">
+				<video id="video" controls autoplay muted>
 					<source src="media/video/BestPlacesInItaly.mp4" type="video/mp4">
 					<source src="media/video/BestPlacesInItaly.ogg" type="video/ogg">			
 					The video can not be shown on you device
 				</video>
 			</figure>
-		</section>	
-		<article id="articleNapoli">
+
+		<main id="articles">
+			<section id="aside">
+				<aside id="bestDestinations">
+					<ol>
+						<li>
+							<h3>Milano</h3>
+							City of the fashion and of industry, capital of Lombardia region						
+						</li>
+						<li>
+							<h3>Firenze</h3>
+							City of the arts and crafts, capital of Tuscany region
+						</li>
+						<li>
+							<h3>Palermo</h3>
+							Capital of Sicily Island, one of the best summer routes
+						</li>
+						<li>
+							<h3>Genoa</h3>
+							Biggest port of Italy, capital of Liguria region
+						</li>
+						<li>
+							<h3>Cagliari</h3>
+							Capital of Sardinia Island, one of the best summer routes
+						</li>
+					</ol>
+				</aside>
+			</section>
+			<section id="products">
 			<header>
 				<h2>Napoli</h2>
 			</header>
-			Napoli la citta piu bella del sud italia e conosciuta per essere<br>
-			la citta piu conosciuta e bella dove pizza pasta mandolina<br>
-			<figure>
-				<a href="https://www.visitnaples.com">
-				<img class="images" id="imgNapoli" src="media/img/napoli.jpg"/>
-				</a>
-				<figcaption>&copy; napoli-turistica.com</figcaption>
-			</figure>
-			<p>
-				<a href="https://www.visitnaples.com">
-					more info 
-				</a>
-			</p>	
-		</article>	
-		<article id="articleRoma">>
+			<article id="articleNapoli">
+				<figure class="IMG">
+					<a href="https://www.visitnaples.com">
+					<img alt=" Napoli" class="images" id="imgNapoli" src="media/img/napoli.jpg"/>
+					</a>
+					<figcaption class="captions">Sight on vesuvio <em>&copy; napoli-turistica.com</em></figcaption>
+				</figure>
+				<p class="productText" id="textNapoli">
+			<strong>Naples </strong>( Neapolitan: Napule [ˈnɑːpələ, ˈnɑːpulə]) is the regional capital of Campania and the third-largest city of Italy, after Rome and Milan, with a population of 967,069 within the city's administrative limits as of 2017. Its province-level municipality is the third-most populous metropolitan city in Italy with a population of 3,115,320 residents, and its metropolitan area stretches beyond the boundaries of the city wall for approximately 20 miles.
+
+Founded by Greeks in the first millennium BC, Naples is one of the oldest continuously inhabited urban areas in the world. In the ninth century BC, a colony known as Parthenope (Ancient Greek: Παρθενόπη) was established on the Island of Megaride. In the 6th century BC, it was refounded as Neápolis. The city was an important part of Magna Graecia, played a major role in the merging of Greek and Roman society, and was a significant cultural centre under the Romans.
+
+It served as the capital of the Duchy of Naples (661–1139), then of the Kingdom of Naples (1282–1816), and finally of the Two Sicilies until the unification of Italy in 1861. Naples is also considered a capital of the Baroque, beginning with the artist Caravaggio's career in the 17th century, and the artistic revolution he inspired.It was also an important centre of humanism and Enlightenment. The city has long been a global point of reference for classical music and opera through the Neapolitan School. Between 1925 and 1936, Naples was expanded and upgraded by Benito Mussolini's government. During the later years of World War II, it sustained severe damage from Allied bombing as they invaded the peninsula. The city received extensive post-1945 reconstruction work.
+					<a class="link" id="linkNapoli" href="https://www.visitnaples.com">
+						more info 
+					</a>
+					<em>&copy; Wikipedia.com</em>
+				</p>
+								
+			</article>	
 			<header>
-				<h2>Roma</h2>
+					<h2>Roma</h2>
 			</header>
-			Roma la citta piu bella del sud italia e conosciuta per essere<br>
-			la citta piu conosciuta e bella dove pizza pasta mandolina<br>
-			<figure>
-				<a href="https://www.visitnaples.com">
-				<img class="images" id="imgRoma" src="media/img/roma.jpg"/>
-				</a>
-				<figcaption>&copy; wikipedia.com</figcaption>
-			</figure>
-			<p>
-				<a href="https://www.visitrome.com">
-					more info 
-				</a>
-			</p>	
-		</article>
-		<article id="artocöeVenice">
+			<article id="articleRoma">
+				<figure class="IMG">
+					<a href="https://www.visitnaples.com">
+					<img alt="Roma" class="images" id="imgRoma" src="media/img/roma.jpg"/>
+					</a>
+					<figcaption class="captions">Colsseum
+					<em>&copy; wikipedia.com</em></figcaption>
+				</figure>
+				<p class="productText" id="textRoma">
+				<strong>Rome </strong>(Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits. The Metropolitan City of Rome, with a population of 4,355,725 residents, is the most populous metropolitan city in Italy. Its metropolitan area is the third-most populous within Italy. Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason, Rome has sometimes been described as the capital of two states. Rome is often referred to as the City of Seven Hills due to its geographic location and also the "Eternal City."
+
+				Rome's history spans 28 centuries. While Roman mythology dates the founding of Rome at around 753 BC, the site has been inhabited for much longer, making it a major human settlement for almost three millennia and one of the oldest continuously occupied cities in Europe. The city's early population originated from a mix of Latins, Etruscans, and Sabines. Eventually, the city successively became the capital of the Roman Kingdom, the Roman Republic and the Roman Empire, and is regarded by many as the first-ever Imperial city and metropolis. It was first called The Eternal City (Latin: Urbs Aeterna; Italian: La Città Eterna) by the Roman poet Tibullus in the 1st century BC, and the expression was also taken up by Ovid, Virgil, and Livy. Rome is also called "Caput Mundi" (Capital of the World). After the fall of the Empire in the west, which marked the beginning of the Middle Ages, Rome slowly fell under the political control of the Papacy, and in the 8th century, it became the capital of the Papal States, which lasted until 1870. Beginning with the Renaissance, almost all popes since Nicholas V (1447–1455) pursued a coherent architectural and urban programme over four hundred years, aimed at making the city the artistic and cultural centre of the world. In this way, Rome became first one of the major centres of the Renaissance, and then the birthplace of both the Baroque style and Neoclassicism. Famous artists, painters, sculptors, and architects made Rome the centre of their activity, creating masterpieces throughout the city. In 1871, Rome became the capital of the Kingdom of Italy, which, in 1946, became the Italian Republic.
+					<a id="linkRome" href="https://www.visitrome.com">
+						more info 
+					</a>
+				<em>&copy; Wikipedia.com</em>
+				</p>	
+			</article>
 			<header>
-				<h2>Venezia</h2>
+					<h2>Venezia</h2>
 			</header>
-			Venezia la citta piu bella del sud italia e conosciuta per essere<br>
-			la citta piu conosciuta e bella dove pizza pasta mandolina<br>
-			<figure>
-				<a href="https://www.visitvenice.com">
-				<img class="images" id="imgVenice" src="media/img/venice.jpg"/>
-				</a>
-				<figcaption> &copy; shutterstock.com </figcaption>
-			</figure>
-			<p>
-				<a href="https://www.visitvenice.com">
-					more info 
-				<a/>
-			</p>	
-		</article>
-		<aside>
-			<ol>
-				<li>
-					Milano
-					Citta capoluogo del nord						
-				</li>
-				<li>
-					Firenze
-					Citta dei maestri d arte 
-				</li>
-				<li>
-					Palermo
-					Capoluogo di sicilia
-				</li>
-				<li>
-					Genoa
-					Piu grade porto d italia
-				</li>
-				<li>
-					Cagliari
-					Capoluogo di Sardegna
-				</li>
-			</ol>
-		</aside>
+			<article id="articleVenice">
+				<figure class="IMG">
+					<a href="https://www.visitvenice.com">
+					<img alt="Venice" class="images" id="imgVenice" src="media/img/venice.jpg"/>
+					</a>
+					<figcaption class="captions">Piazza San Marco
+					<em> &copy; shutterstock.com </em></figcaption>
+				</figure>
+				<p class="productText" id="textVenice">
+				<strong>Venice</strong> (/ˈvɛnɪs/ VEH-niss; Italian: Venezia [veˈnɛttsja] (About this soundlisten); Venetian: Venesia or Venexia [veˈnɛsja]) is a city in northeastern Italy and the capital of the Veneto region. It is built on a group of 118 small islands that are separated by canals and linked by over 400 bridges.The islands are in the shallow Venetian Lagoon, an enclosed bay lying between the mouths of the Po and the Piave rivers (more exactly between the Brenta and the Sile). In 2020, 258,685 people resided in the Comune di Venezia, of whom around 55,000 live in the historical city of Venice (centro storico). Together with Padua and Treviso, the city is included in the Padua-Treviso-Venice Metropolitan Area (PATREVE), which is considered a statistical metropolitan area, with a total population of 2.6 million.
+
+				The name is derived from the ancient Veneti people who inhabited the region by the 10th century BC. The city was historically the capital of the Republic of Venice for over a millennium, from 697 to 1797. It was a major financial and maritime power during the Middle Ages and Renaissance, and a staging area for the Crusades and the Battle of Lepanto, as well as an important center of commerce—especially silk, grain, and spice, and of art from the 13th century to the end of the 17th. The city-state of Venice is considered to have been the first real international financial center, emerging in the 9th century and reaching its greatest prominence in the 14th century. This made Venice a wealthy city throughout most of its history. After the Napoleonic Wars and the Congress of Vienna, the Republic was annexed by the Austrian Empire, until it became part of the Kingdom of Italy in 1866, following a referendum held as a result of the Third Italian War of Independence.
+
+				Venice has been known as "La Dominante", "La Serenissima", "Queen of the Adriatic", "City of Water", "City of Masks", "City of Bridges", "The Floating City", and "City of Canals". The lagoon and a part of the city are listed as a UNESCO World Heritage Site. Parts of Venice are renowned for the beauty of their settings, their architecture, and artwork. Venice is known for several important artistic movements—especially during the Renaissance period—and has played an important role in the history of instrumental and operatic music, and is the birthplace of Baroque composers Tomaso Albinoni and Antonio Vivaldi.
+
+				Although the city is facing some challenges (including an excessive number of tourists and problems caused by pollution, tide peaks and cruise ships sailing too close to buildings), Venice remains a very popular tourist destination, a major cultural centre, and has been ranked many times the most beautiful city in the world. It has been described by the Times Online as one of Europe's most romantic cities and by The New York Times as "undoubtedly the most beautiful city built by man".
+					<a id="linkVenice" href="https://www.visitvenice.com">
+						more info 
+						</a>
+					<em>&copy; wikipedia.com</em>
+				</p>
+			</article>	
+			</section>			
+		</main>
+
 		<section id="cookie">
-			<p> Coockie statement </p>
+			<p> Cookie statement </p>
 		</section>
-		<footer>
+		<footer id="copyright">
 		&copy; 2021 Mirko Cuccurullo Inc.
 		</footer>	
 	</body>
