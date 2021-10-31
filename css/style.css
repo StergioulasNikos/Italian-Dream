@@ -337,7 +337,7 @@ aside{
 
 }
 @media screen and (max-width:480px) and (max-resolution:3dppx){
-	#videoContainer{
+	#videoContainer,#videoContainerMobile{
 	display:none;
 	}
 	#aboutTicket{
@@ -351,7 +351,7 @@ aside{
 		display:flex;
 		flex-direction:column;
 	}
-	#navticket{
+	nav{
 		display:none;
 	}
 	table, th, td {
@@ -400,12 +400,8 @@ aside{
 		float:left;
 		width:100%;
 	}
-	.lables{
-		float:left;
-	}
 	.inputs{
-		display:block;
-		
+		display:block;		
 	}
 	#submit{
 		margin-top:15px;
@@ -497,10 +493,6 @@ aside{
 		position:fixed;
 		bottom:10px;
 		right:20px;
-	}
-	#video
-	{
-		display:none;
 	}
 	#articles{
 		display:flex;
